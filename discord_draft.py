@@ -103,4 +103,4 @@ async def top(ctx, *, message=''):
 #     print(bot.guilds)
 
 
-bot.run(token_test)
+bot.run(token_main)
