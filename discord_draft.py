@@ -15,13 +15,11 @@ from files_rps.Buttons import RPSButton
 
 import database.database as database
 
-token_dist = 'OTg3NDg4NDI0NjYxNDg3NjM2.G2Okgl.sQpgmrs7THlkhKw1nRFG-OMRkCM8EFN90ttyzs'
-token_test = 'OTc4NDAyMTU2MTc4NzE0NzA1.GkNt7X.0cn_GXN3mWlvhmFq0cobJA1qX3z4rSaRVxskB0'
-token_main = 'OTc2NDMxMzg1MTY0MjgzOTE1.GlVmq5.6WIOVFnQ5c4UQI46FDNdFF1P5MdAY3FAlXbYdY'
+token_main = 'TOKEN HERE'
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix='?', intents=intents)
+bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
 async def on_ready():
